@@ -1,0 +1,14 @@
+{
+	"devDependencies": {
+		"@babel/core": "7.0.0-beta.46",
+		"@babel/plugin-external-helpers": "7.0.0-beta.46",
+		"@babel/preset-env": "7.0.0-beta.46",
+		"babel-plugin-rewire-exports": "1.0.0-alpha",
+		"rollup": "0.58.2",
+		"rollup-plugin-babel": "4.0.0-beta.4",
+		"rollup-plugin-node-resolve": "3.3.0"
+	},
+	"scripts": {
+		"build": "rollup -c"
+	}
+}
